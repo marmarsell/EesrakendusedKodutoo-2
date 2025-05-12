@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    font-family: Audiowide;
+}
+
+@font-face {
+    font-family: audiowide;
+    src: url(Audiowide-Regular.ttf);
+}
+
+.audiowide {
+    font-family: Audiowide;
+}
+
+.readout {
+    display: flex;
+    justify-content: space-around;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    background-color: darkgray;
+    padding-top: 15px;
+}
+
+#infoContainer {
+    width: 100vw;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+}
+
+.wrong-button {
+    background-color: red !important;
+}
+
+.right-button {
+    background-color: lightgreen !important;
+}
+
+.right-word {
+    background-color: green !important;
+}
+
+#results {
+    width: 100vw;
+    font-size: 20px;
+    /*display: flex;
+    justify-content: space-around;
+    align-items:stretch;
+    flex-direction: column;*/
+}
+
+#resultButtons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#wordDiv {
+    font-size: 50px;
+}
+
+#score {
+    display: none;
+    font-size: 60px;
+}
